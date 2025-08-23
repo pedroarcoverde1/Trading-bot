@@ -1,1 +1,4 @@
 env/
+## ignorar o trading_env
+hmm_simulations/__pycache__/
+hmm_simulations/trading_env/
