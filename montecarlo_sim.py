@@ -18,8 +18,8 @@ def main():
     mu = mu.item()
     sigma = log_returns.std()
     sigma = sigma.item()
-    print(f"Drift anual: {mu:.4f}")
-    print(f"Volatilidade anual: {sigma:.4f}")
+    print(f"Drift anual: {mu:.5f}")
+    print(f"Volatilidade anual: {sigma:.5f}")
 
     # 3. Definir os parâmetros da simulação
     S0 = data['Close'].iloc[-1] # Preço inicial é o ultimo preço conhecido
